@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+body {
+    margin: 0px;
+    font-family: "Montserrat";
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+}
+.holder {
+    min-width: 1280px;
+    margin: 0px auto;
+}
+.group1 {
+    background-image: url("../images/group1_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.group1 > .holder {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+.header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-self: flex-start;
+}
+.nav {
+    display: flex;
+    justify-self: flex-end;
+}
+.nav > a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.banner > h1 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold";
+    font-size: 6em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.banner > p {
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: center;
+}
+.banner > a {
+    background-color: #f6d365;
+    color: #333333;
+    padding: 15px 70px;
+    font-family: "Montserrat-SemiBold";
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.group2 {
+    background-image: url("../images/group2_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.menu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+.menu > h1 {
+    color: #333333;
+    font-family: "Montserrat-Bold";
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.menu > p {
+    color: #333333;
+    text-align: center;
+    font-size: 1.2em;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.package-holder
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.package {
+    text-align: center;
+    width: 321px;
+}
+.package > h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.package > p {
+    color: #333333;
+    font-size: 1em;
+}
+.group3 {
+    background-image: url("../images/group3_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.food-item
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.food-item-details
+{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.food-item-details > h1, .food-item-details a {
+    align-self: start;
+}
+.food-item-details > h1 {
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold";
+}
+.food-item-details > p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.food-item-details > a {
+    background-color: #f6d365;
+    color: #333333;
+    padding: 15px 70px;
+    font-family: "Montserrat-SemiBold";
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
